@@ -31,6 +31,9 @@
     @include mediaQuery(768px, 577px){
         padding: 45px 15px;
     }
+    @include mediaQuery(1024px, 769px){
+        padding: 60px 15px;
+    }
 }
 @mixin bgImagesSizes{
     width: 316px;

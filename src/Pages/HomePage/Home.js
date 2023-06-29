@@ -42,7 +42,7 @@ const [opening, setOpening] = useState(false);
                                         </div>
                                         <div className="col-lg-8 col-md-12">
                                              <div className="breadContainer">
-                                                  <img style={{width: "150px", height: "480px"}} src={require("../../Images/blueBread.png")} alt="" />
+                                                  <img style={{width: "200px", height: "665px"}} src={require("../../Images/blueBread.png")} alt="" />
                                                   <img src={require("../../Images/greenBread.png")} alt="" />
                                                   <img src={require("../../Images/greyBread.png")} alt="" />
                                                   <img src={require("../../Images/greenBread.png")} alt="" />     

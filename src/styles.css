@@ -419,6 +419,11 @@ nav .hamburger .toggleBars {
     padding: 45px 15px;
   }
 }
+@media (max-width: 1024px) and (min-width: 769px) {
+  #homeAbout {
+    padding: 60px 15px;
+  }
+}
 #homeAbout button {
   height: 50px;
   background-color: #B2904C;
@@ -459,6 +464,11 @@ nav .hamburger .toggleBars {
 @media (max-width: 768px) and (min-width: 577px) {
   #ProduRangeSection {
     padding: 45px 15px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  #ProduRangeSection {
+    padding: 60px 15px;
   }
 }
 #ProduRangeSection h3 {
@@ -689,6 +699,11 @@ nav .hamburger .toggleBars {
   }
 }
 @media (max-width: 768px) and (min-width: 577px) {
+  #factoryNameSection .h3ptextContainer {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
   #factoryNameSection .h3ptextContainer {
     margin-left: 0px;
   }
@@ -959,6 +974,16 @@ nav .hamburger .toggleBars {
     padding: 45px 15px;
   }
 }
+@media (max-width: 1024px) and (min-width: 769px) {
+  #cartoonBootSection {
+    padding: 60px 15px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  #cartoonBootSection {
+    padding: 0px 15px;
+  }
+}
 #cartoonBootSection #bilboard {
   position: relative;
   background-color: #261B6C;
@@ -973,6 +998,11 @@ nav .hamburger .toggleBars {
 @media (max-width: 768px) and (min-width: 577px) {
   #cartoonBootSection #bilboard {
     height: 43vh;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  #cartoonBootSection #bilboard {
+    height: 46vh;
   }
 }
 #cartoonBootSection #bilboard img {
@@ -993,6 +1023,13 @@ nav .hamburger .toggleBars {
     bottom: 50px;
   }
 }
+@media (max-width: 1024px) and (min-width: 769px) {
+  #cartoonBootSection #bilboard img {
+    width: 100%;
+    height: 860px;
+    bottom: 80px;
+  }
+}
 #cartoonBootSection #bilboard .textContainer {
   display: flex;
   flex-direction: column;
@@ -1007,6 +1044,11 @@ nav .hamburger .toggleBars {
   }
 }
 @media (max-width: 768px) and (min-width: 577px) {
+  #cartoonBootSection #bilboard .textContainer {
+    height: 43vh;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
   #cartoonBootSection #bilboard .textContainer {
     height: 43vh;
   }
@@ -1044,6 +1086,11 @@ nav .hamburger .toggleBars {
 @media (max-width: 768px) and (min-width: 577px) {
   #bakersRecipesSection {
     padding: 70px 10px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  #bakersRecipesSection {
+    padding: 70px 15px;
   }
 }
 #bakersRecipesSection .tabList {
@@ -1106,6 +1153,11 @@ nav .hamburger .toggleBars {
 @media (max-width: 768px) and (min-width: 577px) {
   #bakersRecipesSection .card .servers-arrow {
     gap: 68px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  #bakersRecipesSection .card .servers-arrow {
+    gap: 85px;
   }
 }
 #bakersRecipesSection .card .servers-arrow p {
@@ -1213,6 +1265,11 @@ nav .hamburger .toggleBars {
     padding: 45px 15px;
   }
 }
+@media (max-width: 1024px) and (min-width: 769px) {
+  #emailSection {
+    padding: 60px 15px;
+  }
+}
 #emailSection .goldBg {
   background-color: #B2904C;
   width: 100%;
@@ -1274,6 +1331,13 @@ nav .hamburger .toggleBars {
   justify-content: center;
   gap: 10px;
 }
+@media (max-width: 1024px) and (min-width: 769px) {
+  #emailSection .goldBg .breadContainer {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+}
 #emailSection .goldBg .breadContainer img {
   width: 180px;
   height: 490px;
@@ -1288,9 +1352,21 @@ nav .hamburger .toggleBars {
     margin-top: 150px;
   }
 }
+@media (max-width: 1024px) and (min-width: 769px) {
+  #emailSection .goldBg .breadContainer img {
+    width: 100px;
+    height: 300px;
+  }
+}
 @media (max-width: 576px) {
   #emailSection .goldBg .breadContainer #breadImages {
     display: none;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  #emailSection .goldBg .breadContainer #breadImages {
+    width: 100px;
+    height: 300px;
   }
 }
 
